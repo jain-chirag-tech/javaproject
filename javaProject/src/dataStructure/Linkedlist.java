@@ -10,6 +10,9 @@ public class Linkedlist {
 		llist.add(87);
 		llist.add(12);
 		llist.add(16);
+		llist.insert(99, 4);
+		llist.insert(2, 1);
+	
 	
 		llist.print();		
 	}
