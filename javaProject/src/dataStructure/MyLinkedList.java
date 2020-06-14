@@ -18,6 +18,25 @@ public class MyLinkedList {
 	    }	    
 	    temp.next = toAdd;
 	}
+	 
+void insert(int data , int n) {
+		 
+		 Node temp = new Node(data);
+		 
+		 if(n==1) {
+			 temp.next=head;
+			 head=temp;
+			 return;
+		 }
+		 
+		 Node temp2 = head;
+		 for(int i=1; i<n-1;i++) {
+			 temp2 = temp2.next;
+		 }
+		 temp.next = temp2.next;
+		 temp2.next = temp;
+	 }
+	 
 	
 	void print() {
 		Node temp = head;
@@ -28,7 +47,7 @@ public class MyLinkedList {
 	}
 	
 	
-	static class Node{
+	public static class Node{
 		int data;
 		Node next;
 		
