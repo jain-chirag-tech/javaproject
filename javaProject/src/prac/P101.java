@@ -17,7 +17,6 @@ public class P101 {
 		String efg = "-2.11";
 		boolean xyz = abc.equalsIgnoreCase(efg);
 		System.out.println("xyz:"+xyz);
-		
 				
 	}
 
