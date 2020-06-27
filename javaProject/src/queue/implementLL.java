@@ -2,8 +2,8 @@ package queue;
 
 public class implementLL {
 	
-	node front = null;
-	node rear = null;
+	static node front = null;
+	static node rear = null;
 	class node {
 		int data;
 		node next;
@@ -14,11 +14,12 @@ public class implementLL {
 	}
 	
 	void enqueue(int x) {
-		node temp = new node(5);
+		node temp = new node(x);
 		if(front == null && rear == null) {
-			rear = temp;
+			front = rear = temp;
+			return;
 		}
-		temp = rear.next;
+		rear.next=temp;
 		rear = temp;
 	}
 	void dequeue() {
@@ -33,6 +34,26 @@ public class implementLL {
 		else {
 		front=front.next;
 		}		
-	}	
-
+	}
+	
+	static void Print() {
+		node temp = front;
+		while(temp!=null) {
+			System.out.print(temp.data +" ");
+			temp=temp.next;
+		}				
+	}
+	
+	public static void main(String[] args) {
+		implementLL qll = new implementLL ();
+		
+		qll.enqueue(12);
+		qll.enqueue(18);
+		qll.enqueue(1);
+		qll.enqueue(24);
+		qll.enqueue(18);
+		qll.dequeue();
+		qll.dequeue();
+		Print();
+	}
 }
