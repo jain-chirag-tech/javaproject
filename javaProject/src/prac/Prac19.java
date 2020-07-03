@@ -29,6 +29,5 @@ public class Prac19 {
 	           }     
 	        }
 	           return result.data;
-	    }
-	
+	    }	
 }
