@@ -23,7 +23,7 @@ import java.util.List;
 
 public class L728 {
 	 public List<Integer> selfDividingNumbers(int left, int right) {
-         List<Integer> ans = new ArrayList();
+         List<Integer> ans = new ArrayList<>();
         for (int n = left; n <= right; ++n) {
             if (selfDividing(n)) ans.add(n);
         }
