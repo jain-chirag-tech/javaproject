@@ -17,14 +17,14 @@ public class FibonacciSeries {
 		System.out.print(b + " ");	
 		
 		int temp ;
-		for(int i=0 ; i<n-2 ; i++) {
+		for(int i=0 ; i<n-2; i++) {
 			temp = a + b;
 			System.out.print(temp +" " );
 			a=b;
 			b=temp;
 		
 		}
-		
+		sc.close();
 
 	}
 

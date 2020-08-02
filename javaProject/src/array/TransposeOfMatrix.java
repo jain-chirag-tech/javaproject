@@ -21,6 +21,7 @@ public class TransposeOfMatrix {
 				 a[i][j] = sc.nextInt();
 			}
 		}
+		sc.close();
 		int [][] b = new int[rows][cols];
 		for(int i=0; i<rows ; i++) {
 			for(int j=0 ; j<cols ; j++) {

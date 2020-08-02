@@ -30,6 +30,7 @@ public class MatrixAdd {
 			 b[i][j] = sc.nextInt();				
 			}
 		}
+		sc.close();
 		int [][] c = new int[rows][cols];
 		
 		for(int i=0; i<rows; i++) {
