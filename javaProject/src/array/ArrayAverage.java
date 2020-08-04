@@ -16,6 +16,7 @@ public class ArrayAverage {
 		System.out.println("Enter the Marks of Student = ");
 		for(int i=0 ; i<n ; i++) {
 			marks[i] = sc.nextInt();
+			sc.close();
  		}
 		
 		double average = 0;

@@ -21,6 +21,7 @@ public class ArrayPractice {
 		System.out.println("Input Marks");
 		for(int i=0 ; i<n ; i++) {
 			marks[i] = sc.nextInt();
+			sc.close();
 		}
 		System.out.println("Output Marks");
 		for(int i=0 ; i<n ; i++) {	

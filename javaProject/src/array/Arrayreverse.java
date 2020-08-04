@@ -1,7 +1,5 @@
 package array;
 
-import java.util.Scanner;
-
 public class Arrayreverse {
 
 	// reversing array using another array	
