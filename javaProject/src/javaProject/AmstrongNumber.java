@@ -11,8 +11,8 @@ public class AmstrongNumber {
 		System.out.println("Enter Number = ");
 		
 		int n = sc.nextInt();
-		int temp = 0;
-		temp = n;
+		sc.close();
+		int temp = n;
 		int sum = 0;
 		while(n>0) {
 			int r = n%10;
@@ -20,17 +20,18 @@ public class AmstrongNumber {
 			n/=10;		
 		}
 	
-		if(temp==sum) {
+		if(temp==sum) 
+		{
 			System.out.println(temp +" is Amstrong Number ");
 		}
-		else {
+		else
+		{
 			System.out.println(temp +" is Not Amstrong Number ");			
-		}		
-		
-
+		}	
 	}
+}	
 	
 		
-	}
+	
 
 
