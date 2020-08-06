@@ -6,8 +6,8 @@ public class Arraylist {
 
 	public static void main(String[] args) {
 		
-		ArrayList<String> mobile = new ArrayList();
-		ArrayList<String> houseNo = new ArrayList();
+		ArrayList<String> mobile = new ArrayList<>();
+		ArrayList<String> houseNo = new ArrayList<>();
 
 		mobile.add("Apple");
 		mobile.add("Motorola");
