@@ -9,6 +9,7 @@ public class SeriesSum {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter the no = ");
 		int n = sc.nextInt();
+		sc.close();
 		
 		float sum = 0 ;
 		for(float i=1 ; i<=n ; i++) {
@@ -16,5 +17,4 @@ public class SeriesSum {
 		}
 		System.out.println("Sum of Series = " + sum);
 	}
-
 }
