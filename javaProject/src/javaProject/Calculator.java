@@ -16,6 +16,7 @@ public class Calculator {
 		
 		System.out.print("Enter Opertion = ");
 		sc.nextLine();		
+		sc.close();
 		char operation = sc.nextLine().charAt(0);
 		
 		float result = 0;	
