@@ -1,16 +1,14 @@
 package string;
 
-import java.util.Scanner;
-
 public class ReverseString {
 
 	public static void main(String[] args) {
 		
 		String str = "chirag is a good boy";
-		System.out.println(ReverseString(str));
+		System.out.println(reverseString(str));
 	}
 
-		static String ReverseString(String s) {
+		static String reverseString(String s) {
 			int i = s.length()-1;
 			String ans = "";
 			while(i>=0) {
