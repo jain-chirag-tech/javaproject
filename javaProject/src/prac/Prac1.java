@@ -18,7 +18,8 @@ public class Prac1 {
         double d = scan.nextDouble();
         scan.nextLine();
         String s = scan.nextLine();
-
+        scan.close();
+        
         // Write your code here.
 
         System.out.println("String: " + s);
