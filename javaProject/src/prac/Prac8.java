@@ -10,17 +10,19 @@ public class Prac8 {
 		
 		Scanner sc = new Scanner(System.in);
 	
-//		String s = sc.next();
-//		int start = sc.nextInt();
-//		int end = sc.nextInt();
-//		System.out.println(s.substring(start, end));
-   
+		String s = sc.next();
 		int start = sc.nextInt();
 		int end = sc.nextInt();
-		String s = sc.next();
-		System.out.println(start);
-		System.out.println(end);
-		System.out.println(s);
+		sc.close();
+		
+		System.out.println(s.substring(start, end));
+   
+//		int start = sc.nextInt();
+//		int end = sc.nextInt();
+//		String s = sc.next();
+//		System.out.println(start);
+//		System.out.println(end);
+//		System.out.println(s);
 	}
 
 }
