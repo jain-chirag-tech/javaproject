@@ -22,10 +22,6 @@
 //python         050 
 //================================
 
-
-
-
-
 package prac;
 
 import java.util.Scanner;
@@ -38,6 +34,7 @@ public class prac2 {
         for (int i = 0; i<3; i++) {
             String s1 = sc.next();
             int x = sc.nextInt();
+            sc.close();
             System.out.println();
             System.out.printf("%-15s%03d\n", s1, x);
         }
