@@ -9,6 +9,7 @@ public class EqualStack {
 	    Stack<Integer> s1=new Stack<>();
 	    Stack<Integer> s2=new Stack<>();
 	    Stack<Integer> s3=new Stack<>();
+	    
 	    int sum1=0,sum2=0,sum3=0;
 	   for(int i=h1.length-1;i>=0;i--){
 	       s1.push(h1[i]);
@@ -38,5 +39,12 @@ public class EqualStack {
 	        }
 	    }
 	    return sum1;
+	}
+	public static void main(String [] args) {
+		int []a = {3,2,1,1,1};
+		int []b = {4,3,2};
+		int []c = {1,1,4,1};
+		int maxHieght = equalStacks(a,b,c);
+		System.out.println("Maximum hieght of equal Stack "+ maxHieght);
 	}
 }
